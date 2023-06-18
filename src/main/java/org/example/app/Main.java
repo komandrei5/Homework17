@@ -13,11 +13,11 @@ public class Main {
         System.out.println("Difference: " + difference);
 
         int[] inputArray = {1, 2, 4, 8, 4, 2, 4, 1, 7, 9};
-        int[] resultArray = math.extractElementsAfterFour(inputArray);
+        int[] resultArray = Extract.extractElementsAfterFour(inputArray);
         System.out.println("Result: " + Arrays.toString(resultArray));
 
         int[] array = {1, 4};
-        boolean y = SimpleMathLibrary.checkArrayComposition(array);
+        boolean y = CheckArray.checkArrayComposition(array);
         System.out.println("Result: " + y);
 
 
